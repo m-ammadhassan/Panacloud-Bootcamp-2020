@@ -29,4 +29,4 @@ jobs:
         run: npm install --global surge
 
       - name: Deploy on Surge
-        run: surge ./Assignments/Assignment_02/build ammad-a2-pb2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./Assignments/Assignment_02/dist ammad-a2-pb2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
