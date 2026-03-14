@@ -1,4 +1,4 @@
-name: Auto Deploy on Surge
+name: Auto Deploy on Surge for Assignment 02
 
 on: 
   push:
