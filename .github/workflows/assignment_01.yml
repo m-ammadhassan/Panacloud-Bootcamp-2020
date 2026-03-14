@@ -3,6 +3,8 @@ name: Auto Deploy on Surge
 on: 
   push:
     branches: [main]
+    paths:
+     - 'Assignments/Assignment_01/**'
 
 jobs:
   build:
