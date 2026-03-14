@@ -17,19 +17,20 @@ a { text-decoration: none; }
     flex-wrap: wrap;
 }
 
-.text { color: #F3F4F4; }
+.text { color: #BC6FF1; }
 
 .header
 {
     min-height: 20vh;
-    background-color: #1D546D;
+    background-color: #892CDC;
     text-align: center;
+    color: #000000;
 }
 
 .main
 {
     min-height: 60vh;
-    background-color: #061E29;
+    background-color: #000000;
     gap: 3rem;
     
 }
@@ -40,13 +41,13 @@ a { text-decoration: none; }
     text-transform: uppercase;
 }
 
-.main span { color: #5F9598; }
+.main span { color: #892CDC; }
 
 .main .author { font-size: 2.5rem; }
 
 .main .author .react
 {
-    color: #1D546D;
+    color: #52057B;
     text-transform: uppercase;
     margin: 0 1rem;
 }
@@ -54,13 +55,13 @@ a { text-decoration: none; }
 .footer
 {
     min-height: 20vh;
-    background-color: #5F9598;
+    background-color: #52057B;
     gap: 2rem;
 }
 
-.footer a { color: #F3F4F4; }
+.footer a { color: #BC6FF1; }
 
-.footer a:hover { color: #061E29; }
+.footer a:hover { color: #000000; }
 
 .footer a { font-size: 2rem; }
 
