@@ -2,7 +2,7 @@ name: Auto Deploy on Surge
 
 on: 
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build:
