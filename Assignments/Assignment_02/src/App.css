@@ -17,14 +17,13 @@ a { text-decoration: none; }
     flex-wrap: wrap;
 }
 
-.text { color: #BC6FF1; }
+.text { color: #F9F7F7; }
 
 .header
 {
     min-height: 20vh;
-    background-color: #892CDC;
+    background-color: #112D4E;
     text-align: center;
-    color: wheat;
 }
 
 .main
@@ -41,13 +40,13 @@ a { text-decoration: none; }
     text-transform: uppercase;
 }
 
-.main span { color: #892CDC; }
+.main span { color: #DBE2EF; }
 
 .main .author { font-size: 2.5rem; }
 
 .main .author .react
 {
-    color: #52057B;
+    color: #3F72AF;
     text-transform: uppercase;
     margin: 0 1rem;
 }
@@ -55,13 +54,13 @@ a { text-decoration: none; }
 .footer
 {
     min-height: 20vh;
-    background-color: #52057B;
+    background-color: #3F72AF;
     gap: 2rem;
 }
 
-.footer a { color: #BC6FF1; }
+.footer a { color: #F9F7F7; }
 
-.footer a:hover { color: #000000; }
+.footer a:hover { color: #112D4E; }
 
 .footer a { font-size: 2rem; }
 
