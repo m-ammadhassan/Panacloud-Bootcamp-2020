@@ -1,0 +1,32 @@
+name: Auto Deploy on Surge for Assignment 03
+
+on: 
+  push:
+    branches: [main]
+    paths:
+     - 'Assignments/Assignment_03/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Import Code from Repository
+        uses: actions/checkout@v5
+
+      - name: Install Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      - name: Install Dependencies
+        run: npm install -C Assignments/Assignment_03
+
+      - name: Build React Project
+        run: npm run build --prefix Assignments/Assignment_03
+
+      - name: Install Surge
+        run: npm install --global surge
+
+      - name: Deploy on Surge
+        run: surge ./Assignments/Assignment_03/dist ammad-a3-pb2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
