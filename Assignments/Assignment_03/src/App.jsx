@@ -1,14 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
+import Exercise01 from './components/Exercise 01/Exercise01'
+import Exercise02 from './components/Exercise 02/Exercise02'
+import Header from './components/Header'
+import Planets from './components/Planets'
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
 
   return (
     <>
+      <Header />
+      <main className="main padding">
+        <Exercise01 />
+        <Exercise02 />
+        <Planets />
+      </main>
       
     </>
   )

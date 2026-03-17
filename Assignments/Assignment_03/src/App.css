@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padding { padding: 2rem 4rem; }
+
+a { text-decoration: none; }
+
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text { color: #F9F7F7; }
+
+.header
+{
+    min-height: 20vh;
+    background-color: #112D4E;
+    text-align: center;
+}
+
+.main
+{
+    min-height: 60vh;
+    background-color: #F9F7F7;
+    /* gap: 3rem; */
+}
