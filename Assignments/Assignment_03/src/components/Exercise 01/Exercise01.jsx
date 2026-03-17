@@ -7,31 +7,35 @@ import Task05 from './Task05'
 
 const Exercise01 = () => {
   return (
-    <div>
-        <table>
-            <tr>
-                <th>Exercise 01 Tasks</th>
-            </tr>
-            <tr>
-                <td>Task 01</td>
-                <td><Task01 /></td>
-            </tr>
-            <tr>
-                <td>Task 02</td>
-                <td><Task02 /></td>
-            </tr>
-            <tr>
-                <td>Task 03</td>
-                <td><Task03 /></td>
-            </tr>
-            <tr>
-                <td>Task 04</td>
-                <td><Task04 /></td>
-            </tr>
-            <tr>
-                <td>Task 05</td>
-                <td><Task05 /></td>
-            </tr>
+    <div className="exercise-section">
+        <table className="exercise-table">
+            <thead>
+                <tr>
+                    <th colSpan={2}>Exercise 01 Tasks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Task 01</td>
+                    <td><Task01 /></td>
+                </tr>
+                <tr>
+                    <td>Task 02</td>
+                    <td><Task02 /></td>
+                </tr>
+                <tr>
+                    <td>Task 03</td>
+                    <td><Task03 /></td>
+                </tr>
+                <tr>
+                    <td>Task 04</td>
+                    <td><Task04 /></td>
+                </tr>
+                <tr>
+                    <td>Task 05</td>
+                    <td><Task05 /></td>
+                </tr>
+            </tbody>
         </table>
     </div>
   )

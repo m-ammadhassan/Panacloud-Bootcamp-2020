@@ -7,9 +7,9 @@ const Gate = ({isOpen}) => {
     // when isOpen is false, make it render “closed”. 
     // Hint: you can do conditional logic inside JSX with the ternary (question mark, ?) operator, inside single braces, 
     // like this: {speed > 80 ? "danger!" : "probably fine"} (which evaluates to “danger!” if speed is over 80, and “probably fine” otherwise).
-    <div>
+    <div className={`gate-card ${isOpen ? "open": "closed"}`}>
         <h4>Gate:</h4>
-        {isOpen ? "Open": "Closed"}
+        <span>{isOpen ? "Open": "Closed"}</span>
     </div>
   )
 }

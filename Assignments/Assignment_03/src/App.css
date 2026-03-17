@@ -9,6 +9,8 @@
 
 a { text-decoration: none; }
 
+ol { list-style-position: inside; }
+
 .flex
 {
     display: flex;
@@ -32,3 +34,89 @@ a { text-decoration: none; }
     background-color: #F9F7F7;
     /* gap: 3rem; */
 }
+
+.exercise-section
+{
+    margin: 0 0 4rem 0;
+}
+
+.exercise-table
+{
+    width: 100%;
+    border: .20rem solid #112D4E;
+    border-collapse: collapse;
+}
+
+.exercise-table thead th
+{
+    background-color: #112D4E;
+    color: #F9F7F7;
+    font-size: 1.5rem;
+    border: .20rem solid #112D4E;
+    padding: 1rem;
+}
+
+.exercise-table tbody td:first-child
+{
+    color: #112D4E;
+    font-weight: 900;
+    width: 20%;
+    text-align: center;
+}
+
+.exercise-table tbody td
+{
+    border: .20rem solid #112D4E;
+    padding: 1rem;
+}
+
+.aim h4
+{
+    color: #112D4E;
+    font-style: italic;
+}
+
+.media-card, .gate-card
+{
+    width: 50%;
+    border: .20rem solid #3F72AF;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.media-card h2
+{
+    color: #3F72AF;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.media-card p { margin: 0 0 1rem 0; }
+
+.media-card img
+{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.gate-card.open
+{
+    border-color: darkgreen;
+    color: darkgreen;
+}
+
+.gate-card.closed
+{
+    border-color: darkred;
+    color: darkred;
+}
+
+.gate-card h4 
+{
+    display: inline;
+    color: black;
+    font-size: 1.5rem;
+    margin: 0 1rem 0 0;
+}
+
+.gate-card span { font-size: 1.25rem; }

@@ -5,9 +5,9 @@ const MediaCardTwo = ({title, body, imageURL, jsx}) => {
     // Render the MediaCard with the ReactDOM.render call, and pass in the necessary props. 
     // Can you pass a JSX element as a prop value? (hint: wrap it in single braces). 
     // Try bolding some parts of the body text without changing the implementation of MediaCard.
-    <div>
+    <div className="media-card">
         <h2>{title}</h2>
-        <p>{body}</p>
+        <p>{body}{jsx}</p>
         <img src={imageURL} alt="" />
     </div>
   )
