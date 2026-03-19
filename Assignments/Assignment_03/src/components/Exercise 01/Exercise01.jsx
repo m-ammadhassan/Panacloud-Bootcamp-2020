@@ -7,11 +7,13 @@ import Task05 from './Task05'
 
 const Exercise01 = () => {
   return (
-    <div className="exercise-section">
+    <div className="exercise-section exercise-section-01 padding">
         <table className="exercise-table">
             <thead>
                 <tr>
-                    <th colSpan={2}>Exercise 01 Tasks</th>
+                    <th colSpan={2}>
+                        <a href="https://daveceddia.com/react-getting-started-tutorial/" target="_self">Daveceddia Exercise 01 Tasks Solution</a>
+                    </th>
                 </tr>
             </thead>
             <tbody>

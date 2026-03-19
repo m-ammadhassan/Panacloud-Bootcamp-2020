@@ -7,11 +7,13 @@ import MediaCardTwoImage from '../../assets/MediaCardImageTwo.jpg'
 
 const Exercise02 = () => {
   return (
-    <div className="exercise-section">
+    <div className="exercise-section exercise-section-02 padding">
       <table className="exercise-table">
         <thead>
           <tr>
-            <th colSpan={2}>Exercise 02 Tasks</th>
+            <th colSpan={2}>
+              <a href="https://daveceddia.com/react-getting-started-tutorial/" target="_self">Daveceddia Exercise 02 Tasks Solution</a>
+            </th>
           </tr>
         </thead>
         <tbody>
