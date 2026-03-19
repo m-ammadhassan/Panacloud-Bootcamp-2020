@@ -190,7 +190,7 @@ ol { list-style-position: inside; }
 /* Responsive Website */
 @media (max-width: 1200px)
 {
-    .media-card { width: 80%;}
+    .media-card, .gate-card { width: 80%;}
 }
 
 @media (max-width: 1024px)
@@ -203,7 +203,7 @@ ol { list-style-position: inside; }
 
 @media (max-width: 768px)
 {
-    .media-card { width: 90%;}
+    .media-card, .gate-card { width: 90%;}
 
     .planets-section-body { grid-template-columns: repeat(1, 70%); }
 }
