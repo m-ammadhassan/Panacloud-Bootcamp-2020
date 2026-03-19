@@ -187,3 +187,30 @@ ol { list-style-position: inside; }
 
 .footer a { font-size: 2rem; }
 
+/* Responsive Website */
+@media (max-width: 1200px)
+{
+    .media-card { width: 80%;}
+}
+
+@media (max-width: 1024px)
+{
+    .padding { padding: 4rem; }
+
+    .planets-section-body { grid-template-columns: repeat(2, 40%); }
+
+}
+
+@media (max-width: 768px)
+{
+    .media-card { width: 90%;}
+
+    .planets-section-body { grid-template-columns: repeat(1, 70%); }
+}
+
+@media (max-width: 481px)
+{
+    .padding { padding: 4rem 1rem; }
+
+    .planets-section-body { grid-template-columns: repeat(1, 90%); }
+}
