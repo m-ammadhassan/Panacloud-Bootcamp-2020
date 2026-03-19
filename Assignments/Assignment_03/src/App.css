@@ -35,9 +35,9 @@ ol { list-style-position: inside; }
     /* gap: 3rem; */
 }
 
-.exercise-section-01 { margin: 2rem 0 0 0; }
+.exercise-section-01 { padding: 4rem 4rem 2rem; }
 
-.exercise-section-02 { margin: 0 0 2rem 0; }
+.exercise-section-02 { padding: 2rem 4rem 4rem; }
 
 .exercise-table
 {
@@ -203,7 +203,7 @@ ol { list-style-position: inside; }
 
 @media (max-width: 768px)
 {
-    .media-card, .gate-card { width: 90%;}
+    .media-card, .gate-card { width: 100%;}
 
     .planets-section-body { grid-template-columns: repeat(1, 70%); }
 }
