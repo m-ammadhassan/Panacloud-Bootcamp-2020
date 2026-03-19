@@ -35,10 +35,9 @@ ol { list-style-position: inside; }
     /* gap: 3rem; */
 }
 
-.exercise-section
-{
-    margin: 0 0 4rem 0;
-}
+.exercise-section-01 { margin: 2rem 0 0 0; }
+
+.exercise-section-02 { margin: 0 0 2rem 0; }
 
 .exercise-table
 {
@@ -50,11 +49,12 @@ ol { list-style-position: inside; }
 .exercise-table thead th
 {
     background-color: #112D4E;
-    color: #F9F7F7;
     font-size: 1.5rem;
     border: .20rem solid #112D4E;
     padding: 1rem;
 }
+
+.exercise-table thead th a { color: #F9F7F7; }
 
 .exercise-table tbody td:first-child
 {
@@ -120,3 +120,70 @@ ol { list-style-position: inside; }
 }
 
 .gate-card span { font-size: 1.25rem; }
+
+.planets-section
+{
+    background-color: #1c1c1c;
+    padding: 4rem;
+}
+
+.planets-section-title
+{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 0 3rem 0;
+}
+
+.planets-section-body
+{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-auto-rows: 1fr;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.planet-card
+{
+    padding: 2rem;
+    border: .20rem solid;
+    text-align: center;
+    border-radius: .20rem;
+}
+
+.planet-card h3
+{
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+.planet-card h4 { 
+    font-size: 1.25rem;
+    display: inline;
+}
+
+.planet-card img
+{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.planet-card p
+{
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+.footer
+{
+    min-height: 20vh;
+    background-color: #3F72AF;
+    gap: 2rem;
+}
+
+.footer a { color: #F9F7F7; }
+
+.footer a:hover { color: #112D4E; }
+
+.footer a { font-size: 2rem; }
+
