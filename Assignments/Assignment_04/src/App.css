@@ -287,5 +287,9 @@ ol { list-style-position: inside; }
     .temperature-card .room-button:first-child {margin: 0 1rem 0 0;}
 
     .temperature-card .room-button:last-child {margin: 0;}
-    
+}
+
+@media (max-width: 481px)
+{
+    .padding {padding: 4rem 1rem;}
 }
