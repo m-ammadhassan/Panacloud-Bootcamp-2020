@@ -1,0 +1,32 @@
+name: Auto Deploy on Surge for Project 01
+
+on: 
+  push:
+    branches: [main]
+    paths:
+     - 'Projects/Project_01/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Import Code from Repository
+        uses: actions/checkout@v5
+
+      - name: Install Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      - name: Install Dependencies
+        run: npm install -C Projects/Project_01
+
+      - name: Build React Project
+        run: npm run build --prefix Projects/Project_01
+
+      - name: Install Surge
+        run: npm install --global surge
+
+      - name: Deploy on Surge
+        run: surge ./Projects/Project_01/dist ammad-p1-pb2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
