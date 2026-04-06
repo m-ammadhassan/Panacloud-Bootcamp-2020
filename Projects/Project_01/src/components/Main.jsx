@@ -6,7 +6,7 @@ import TransactionForm from './TransactionForm'
 
 const Main = () => {
   return (
-    <main className='app-body'>
+    <main className='app-body padding grid'>
         <div>
             <Balance />
             <AccountSummary />

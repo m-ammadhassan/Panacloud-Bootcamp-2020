@@ -1,0 +1,40 @@
+.transaction-form-section
+{
+    border: .2rem solid #112D4E;
+    border-radius: .25rem;
+}
+
+.form-control
+{
+    margin: 1rem 0;
+}
+
+.form-label
+{
+    /* color: aliceblue; */
+}
+
+.form-field
+{
+    width: 100%;
+    padding: .5rem .75rem;
+    margin: .5rem 0 0 0;
+    border: .1rem solid #112D4E;
+    border-radius: .25rem;
+}
+
+.form-field:focus
+{
+    outline: none;
+}
+
+.form-field[type=number]
+{
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.button
+{
+    margin: 1rem 0 0;
+}

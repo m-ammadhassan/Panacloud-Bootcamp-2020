@@ -1,0 +1,57 @@
+.transaction-card
+{
+    margin: 1rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0 1rem;
+}
+
+.transaction-positive
+{
+    border-right: .4rem solid darkgreen;
+}
+
+.transaction-negative
+{
+    border-right: .4rem solid darkred;
+}
+
+.transaction-card.flex
+{
+    justify-content: space-between;
+}
+
+.transaction-title
+{
+    order: 2;
+    width: 75%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.transaction-amount
+{
+    order: 3;
+}
+
+.transaction-remove
+{
+    order: 1;
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    background-color: darkred;
+    color: #F9F7F7;
+}
+
+.transaction-card:hover
+{
+    cursor: pointer;
+    padding: 0 1rem 0 0;
+}
+
+.transaction-card:hover .transaction-remove
+{
+    display: block;
+    cursor: pointer;
+}

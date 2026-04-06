@@ -1,0 +1,26 @@
+.account-summary-section
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.income-section, .expense-section
+{
+    width: 50%;
+    padding: 2rem 2rem;
+}
+
+.income-section h4
+{
+    color: darkgreen;
+}
+
+.expense-section h4
+{
+    color: darkred;
+}
+
+.income-section
+{
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+}
+

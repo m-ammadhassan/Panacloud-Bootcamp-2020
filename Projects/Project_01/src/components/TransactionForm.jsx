@@ -1,31 +1,32 @@
 import React from 'react'
+import '../styles/TransactionForm.css'
 
 const TransactionForm = () => {
   return (
-    <section className='transaction-form-section'>
-      <h3>Add New Transaction</h3>
+    <section className='transaction-form-section component-padding'>
+      <h2 className='section-title text-center'>Add New Transaction</h2>
       <div>
         <form action="">
-          <div>
-            <label htmlFor=""><h4>Description</h4></label>
-            <input type="text" />
+          <div className='form-control'>
+            <label htmlFor="" className='form-label'><h3>Description</h3></label>
+            <input type="text" className='form-field' />
           </div>
 
-          <div>
-            <label htmlFor=""><h4>Ammount</h4></label>
-            <input type="number" name="" id="" />
+          <div className='form-control'>
+            <label htmlFor="" className='form-label'><h3>Amount</h3></label>
+            <input type="number" name="" id="" className='form-field' />
           </div>
 
-          <div>
-            <label htmlFor=""><h4>Type</h4></label>
-            <select name="" id="">
+          <div className='form-control'>
+            <label htmlFor="" className='form-label'><h3>Type</h3></label>
+            <select name="" id="" className='form-field'>
               <option value="">Income</option>
               <option value="">Expense</option>
             </select>
           </div>
 
           <div>
-            <button>Add Transaction</button>
+            <button className='button'>Add Transaction</button>
           </div>
         </form>
       </div>

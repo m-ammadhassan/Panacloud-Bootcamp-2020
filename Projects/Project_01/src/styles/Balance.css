@@ -1,0 +1,12 @@
+.balance-section
+{
+    background-color: #3F72AF;
+    margin: 0 0 3rem 0;
+}
+
+.balance-amount
+{
+    color: #F9F7F7;
+    margin: 1rem 0 0 0;
+    font-size: 2rem;
+}
